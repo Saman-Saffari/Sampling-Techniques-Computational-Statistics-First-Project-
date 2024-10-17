@@ -1,5 +1,7 @@
 # Sampling-Techniques-Computational-Statistics-First-Project-
-In this project I explored different sampling methods using Python. 
+In this project I explored different sampling methods using Python. This file is a jupyter notebook. It can be run here 
+without any dependency issues:
+https://colab.research.google.com/drive/1uy6PfNhF9XDsrRs7HS4jkOahUGVNovU8
 ## Libraries
 Libraries required are: numpy,math,matplotlib,seaborn and statistics.
 ## Question 1
