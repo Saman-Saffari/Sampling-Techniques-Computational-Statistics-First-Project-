@@ -114,7 +114,7 @@ Histogram:
 ![image](https://github.com/user-attachments/assets/fecb78be-685c-412e-98e2-17fa05270c49)
 
 
-As a sanity check, I used a composition sampler which samples which produces a sample of size 1200 (approximately the number of accepted samples from rejection sampling)/
+As a sanity check, I used a composition sampler which generates a sample of size 1200 (approximately the number of accepted samples from rejection sampling)/
 This is its histogram which is very similar to that of the rejection sampler:
 
 ![image](https://github.com/user-attachments/assets/b47c321f-c1f9-4461-8b43-5a8f406eb0ef)
