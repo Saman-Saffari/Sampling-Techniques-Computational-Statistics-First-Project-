@@ -1,7 +1,7 @@
 # Sampling-Techniques-Computational-Statistics-First-Project-
 In this project I explored different sampling methods using Python. This file is a jupyter notebook. It can be run here 
 without any dependency issues:
-https://colab.research.google.com/drive/1uy6PfNhF9XDsrRs7HS4jkOahUGVNovU8
+https://colab.research.google.com/drive/1rJdBntUs8fOqxOi2sOjEpIHE_OXz_2un
 ## Libraries
 Libraries required are: numpy,math,matplotlib,seaborn and statistics.
 ## Question 1
@@ -112,6 +112,13 @@ For each sample element x, accepts it if u<=(mixture(x)/proposed(x)*M) where u i
 Histogram:
 
 ![image](https://github.com/user-attachments/assets/fecb78be-685c-412e-98e2-17fa05270c49)
+
+
+As a sanity check, I used a composition sampler which samples which produces a sample of size 1200 (approximately the number of accepted samples from rejection sampling)/
+This is its histogram which is very similar to that of the rejection sampler:
+
+![image](https://github.com/user-attachments/assets/b47c321f-c1f9-4461-8b43-5a8f406eb0ef)
+
 
 ### b
 exponential_sampler(parameter):\
